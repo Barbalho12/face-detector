@@ -71,3 +71,16 @@ E depois executar passando os parametros:
 	./detectFace-client IP_CAM IP_SERV SLEEP_TIME SIZE_FACE_MIN
 
 sendo por padrão: IPCAM=0 IP_SERV=192.168.7.1 SLEEP_TIME=4 SIZE_FACE_MIN=200 
+
+### Imagens do Sistema ###
+
+	![F1](images/cliente.jpg?raw=true "Execução no cliente")
+	
+	![F2](images/config.jpg?raw=true "Informações de rede do servidor")
+	
+	![F3](images/infos.jpg?raw=true "Log de cadastrados")
+	
+	![F4](images/save.jpg?raw=true "Diretório com fotos dos cadastrados")
+	
+	![F5](images/updates.jpg?raw=true "Tela de atualização do último cadastrado")
+

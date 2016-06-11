@@ -13,22 +13,26 @@ iptables --append FORWARD --in-interface eth1 -j ACCEPT
 echo 1 > /proc/sys/net/ipv4/ip_forward
 
 
-Configurações na Beagle
+Configurações na Beagle:
+
 	sudo su
 	route add default gw 192.168.7.1
 	echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 	/etc/init.d/networking restart
 
 
-Instalação de Dependências 
+Instalação de Dependências:
+
 	sudo apt-get install build-essential
 	sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
 	udo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
 
-Download OpenCV: https://sourceforge.net/projects/opencvlibrary/
-	opencv-3.1.0.zip
+Download OpenCV: 
 
+	https://sourceforge.net/projects/opencvlibrary/opencv-3.1.0.zip
+
+Finalizado o download execute: 
 
 	unzip opencv-3.1.0.zip
 	cd opencv-3.1.0/

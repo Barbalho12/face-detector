@@ -1,8 +1,8 @@
-# DetectFaces
+# Face Detector
 
 Sistema de autenticação por identificação facial
 
-### Instalação do OpenCV na BeagleBone Black ###
+### Instalação do OpenCV na BeagleBone Black
 
 
 Configurações de Host
@@ -52,7 +52,7 @@ Obs: Para executar o programa ainda é necessário a instação de outras biblio
 
 	https://github.com/Barbalho12/beagleboneblack
 
-### Configurando ambiente ###
+### Configurando ambiente
 
 Clona esse repositório:
 
@@ -72,7 +72,7 @@ E depois executar passando os parametros:
 
 sendo por padrão: IPCAM=0 IP_SERV=192.168.7.1 SLEEP_TIME=4 SIZE_FACE_MIN=200 
 
-### Imagens do Sistema ###
+### Imagens do Sistema
 
 ![F1](images/cliente.jpg?raw=true "Execução no cliente")
 	

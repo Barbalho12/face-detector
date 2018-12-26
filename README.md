@@ -1,6 +1,6 @@
 # Face Detector
 
-Authentication system with facial identification
+Authentication system with facial identification using a [BeagleBone Black]
 
 ### Network settings on host 
 
@@ -20,7 +20,7 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 /etc/init.d/networking restart
 ```
 
-### Installing OpenCV on BeagleBone Black
+### Installing [OpenCV] on BeagleBone Black
 
 ####  Dependency Installation:
 
@@ -32,7 +32,7 @@ udo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpn
 
 ```bash
 # Download OpenCV: 
-wget https://sourceforge.net/projects/opencvlibrary/opencv-3.1.0.zip
+wget https://github.com/opencv/opencv/archive/3.1.0.zip
 
 # Finalizado o download execute: 
 unzip opencv-3.1.0.zip
@@ -69,12 +69,13 @@ And then execute passing the parameters:
 
 By default: 
 
-- IPCAM=0 
-- IP_SERV=192.168.7.1 
-- SLEEP_TIME=4 
-- SIZE_FACE_MIN=200 
+- `IPCAM`=0 
+- `IP_SERV`=192.168.7.1 
+- `SLEEP_TIME`=4 
+- `SIZE_FACE_MIN`=200 
 
 ### Print screen of the system in operation
+
 
 ![F1](images/cliente.jpg?raw=true "Execution on the client")
 	
@@ -89,4 +90,6 @@ By default:
 
  [QT]: <https://www.qt.io/>
  [algorithm-analysis-in-beagle]: <https://github.com/Barbalho12/algorithm-analysis-in-beagle>
+ [OpenCV]: <https://opencv.org/>
+ [BeagleBone Black]: <https://beagleboard.org/black>
 
